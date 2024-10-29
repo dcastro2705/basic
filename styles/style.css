@@ -15,7 +15,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff;
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -135,4 +135,26 @@ button:hover {
 }
 .text-oro {
   color: #F3CA4C;
+}
+
+.custom-shape-divider-bottom-white {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-white svg {
+  position: relative;
+  display: block;
+  width: calc(169% + 1.3px);
+  height: 65px;
+  transform: rotateX(180deg);
+}
+
+.custom-shape-divider-bottom-white .shape-fill {
+  fill: #FFFFFF;
 }
