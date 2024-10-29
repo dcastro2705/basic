@@ -7,6 +7,7 @@
     <link rel="icon" href="public/svg/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <title>Boda Daniel&Maria</title>
 </head>
@@ -188,6 +189,53 @@
             </div>
         </div>
 
+        <div class="bg-platino items-center">
+            <!-- Ubicacion -->
+            <div class="card bg-base-100 image-full w-96 shadow-xl">
+                <figure>
+                  <img
+                    src="public/img/map.jpg"
+                    alt="map" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">¿Donde será?</h2>
+                  <p>Calle Bermudez entre Carretera L y Vargas, C. Bermudez, Cd Ojeda 4019, Zulia</p>
+                  <div class="card-actions justify-end">
+                    <a class=" btn hover:outline-none" href="http://maps.app.goo.gl/mBYEatwzBb8SDBrs9" target="_blank" rel="noopener noreferrer" class="focus:outline-none">Ubicación</a>
+                  </div>
+                </div>
+              </div>
+            <!-- FIN Ubicacion -->
+
+            <!-- Regalos-->
+            <div class="card bg-base-100 image-full w-96 shadow-xl">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn" onclick="my_modal_5.showModal()">Ubicacion</button>
+                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <div class="modal-box">
+                        <h3 class="text-lg font-bold">Regalos</h3>
+                        <p class="py-4">0424-6746980</p>
+                        <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn">Cerrar</button>
+                        </form>
+                        </div>
+                    </div>
+                    </dialog>
+                  </div>
+                </div>
+              </div>
+            <!-- FIN Regalos -->
+        </div>
 
     </div>
 
