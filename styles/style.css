@@ -136,6 +136,12 @@ button:hover {
 .text-oro {
   color: #F3CA4C;
 }
+.bg-platino {
+  background-color: #E1E4E1;
+}
+.bg-night {
+  background-color: #060D0B;
+}
 
 .custom-shape-divider-bottom-white {
   position: absolute;
@@ -156,5 +162,5 @@ button:hover {
 }
 
 .custom-shape-divider-bottom-white .shape-fill {
-  fill: #FFFFFF;
+  fill: #060D0B;
 }
