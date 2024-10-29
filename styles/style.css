@@ -15,7 +15,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -127,9 +127,12 @@ button:hover {
   display: block;
   width: calc(169% + 1.3px);
   height: 65px;
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .custom-shape-divider-bottom-1730161732 .shape-fill {
-  fill: #ffffff;
+  fill: #7A6751;
+}
+.text-oro {
+  color: #F3CA4C;
 }
