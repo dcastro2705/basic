@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" data-name="svg2" xmlns="http://www.w3.org/2000/svg" width="463" height="120.32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 120.32">
-  <defs>
-    <style>
-      .c {
-        fill: url(#b);
-      }
-    </style>
-    <linearGradient id="b" data-name="Degradado sin nombre 30" x1="0" y1="16.78" x2="463" y2="16.78" gradientUnits="userSpaceOnUse">
-      <stop offset=".17" stop-color="#f3ca4c"/>
-      <stop offset=".99" stop-color="#f3ca4c"/>
-    </linearGradient>
-  </defs>
-  <path class="c" d="M463,13.7l-201.63,.37c-9.1-23.39-26.64-15.33-29.39,7.41-2.82-22.76-20.44-30.66-29.45-7.29,0,0-182.84,.32-202.53,.36v3.88c16.48-.02,197.07-.35,202.39-.36l.08,.15c2.08-12.29,12.84-18.44,20.39-11.43,6.82,5.79,8.84,17.2,9.14,26.76,.27-9.57,2.22-20.98,9.02-26.8,7.52-7.05,18.32-.97,20.45,11.31,0,0,.02-.05,.05-.11,.84,0,178.69-.33,201.47-.38v-3.88"/>
-</svg>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 33.55"><defs><style>.cls-1{fill:url(#Degradado_sin_nombre);}</style><linearGradient id="Degradado_sin_nombre" y1="76.36" x2="463" y2="76.36" gradientTransform="matrix(1, 0, 0, -1, 0, 122)" gradientUnits="userSpaceOnUse"><stop offset="0.17" stop-color="#f3ca4c"/><stop offset="0.99" stop-color="#f3ca4c"/></linearGradient></defs><path class="cls-1" d="M463,42.57l-201.63.37c-9.1-23.39-26.64-15.33-29.39,7.41-2.82-22.76-20.44-30.66-29.45-7.29L0,43.42V47.3l202.39-.36.08.15c2.08-12.29,12.84-18.44,20.39-11.43,6.82,5.79,8.84,17.2,9.14,26.76.27-9.57,2.22-21,9-26.8,7.52-7,18.32-1,20.45,11.31l0-.11L463,46.44V42.56" transform="translate(0 -28.87)"/></svg>
